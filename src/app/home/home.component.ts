@@ -16,9 +16,8 @@ export class HomeComponent implements OnInit {
   }
   obtenerHeroe(){
     this.homeService.heroe().subscribe(data => {
-this.capAmerica = data;
-console.log(this.capAmerica);
-    } );
+      this.capAmerica = data;
+    });
   }
 
 }

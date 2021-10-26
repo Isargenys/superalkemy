@@ -1,1 +1,23 @@
-<p>home works!</p>
+<h2 class="text-center mb-3">Dashboard SuperHumanos</h2>
+<h3 class="text-muted">Heroes</h3>
+
+<div class="row mb-3 mt-3">
+    <div class="col-12 col-md-3">
+        <div class="card" style="width: 18rem;">
+            <img src="{{ capAmerica.image.url }}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{ capAmerica.name }}</h5>
+              <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Inteligencia -> {{ capAmerica.powerstats.intelligence }}</li>
+                  <li class="list-group-item">Fuerza -> {{ capAmerica.powerstats.strength }}</li>
+                  <li class="list-group-item">Velocidad -> {{ capAmerica.powerstats.speed }}</li>
+                  <li class="list-group-item">Durabilidad -> {{ capAmerica.powerstats.durability }}</li>
+                  <li class="list-group-item">Poder -> {{ capAmerica.powerstats.power }}</li>
+                  <li class="list-group-item">Combate -> {{ capAmerica.powerstats.combat }}</li>
+              </ul>
+              <a href="#" class="btn btn-primary">Ver Detalle</a>
+              <a href="#" class="btn btn-danger float-end">Eliminar</a>
+            </div>
+          </div>
+    </div>
+</div>
