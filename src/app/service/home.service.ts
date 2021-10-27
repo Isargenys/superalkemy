@@ -15,5 +15,6 @@ export class HomeService {
 
  heroe(){
    return this.http.get(this.urlApi + this.accessToken + '/149');
+   
  }
 }
